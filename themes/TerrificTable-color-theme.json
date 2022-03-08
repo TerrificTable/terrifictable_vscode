@@ -2,12 +2,91 @@
 	"name": "TerrificTable",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
+		"editor.background": "#241525",
 		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"titleBar.activeBackground": "#521352",
+		"panel.border": "#720169",
+		"focusBorder": "#ff00626b",
+		"sideBar.background": "#2e1b30",
+		"activityBar.background": "#351b38",
+		"activityBarBadge.background": "#f04eff",
+		"statusBar.background":"#a1aef8",
+		"statusBar.foreground": "#000000",
+		"sideBar.border": "#720169",
+		"activityBar.foreground": "#ffffff",
+		"sideBarTitle.foreground": "#94cccc",
+		"tab.activeBorder": "#be01af",
+		"window.activeBorder": "#00c3ff",
+
+		"editor.wordHighlightBorder":"#15ff00",
+		"editor.wordHighlightStrongBackground": "#5e3361",
+		"editor.lineHighlightBorder": "#99edf11a"
 	},
+
 	"tokenColors": [
+		// PYTHON
+		{
+			"name": "Import.Python",
+			"scope": [
+				"keyword.control.import.python"
+			],
+			"settings": {
+				"foreground": "#00c3ff",
+			}
+		},
+		{
+			"name": "Def.Python",
+			"scope": [
+				"entity.name.type.class.python"
+			],
+			"settings": {
+				"foreground": "#eeff00",
+				"fontStyle": "bold underline"
+			}
+		},
+		{
+			"name": "Flow.Python",
+			"scope": [
+				"keyword.control.flow.python"
+			],
+			"settings": {
+				"foreground": "#ff0055",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Variables.Python",
+			"scope": [
+				"variable.parameter.function.language.python",
+				"source.python"
+			],
+			"settings": {
+				// "foreground": "#00ffff",
+				"foreground": "#ff8800"
+			}
+		},
+		{
+			"name": "Self.Python",
+			"scope":[
+				"variable.parameter.function.language.special.self.python",
+			],
+			"settings": {
+				"foreground": "#008cff",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "String.Python",
+			"scope": [
+				"punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#4e852e",
+			}
+		},
+
+
+		// OTHER/GENERAL
 		{
 			"name": "Comment",
 			"scope": [
@@ -100,7 +179,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#14f100"
 			}
 		},
 		{
@@ -150,7 +229,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#66b164"
 			}
 		},
 		{
