@@ -1,21 +1,47 @@
 {
-    "name": "terrifictable",
-    "displayName": "TerrificTable",
-    "description": "A Visual Studio Code Theme I'm working on",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.65.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "TerrificTable",
-                "uiTheme": "vs-dark",
-                "path": "./themes/TerrificTable-color-theme.json"
-            }
-        ]
-    }
+  "name": "terrifictable",
+  "displayName": "TerrificTable",
+  "description": "A Visual Studio Code Theme I'm working on",
+  "publisher": "TerrificTable",
+  "author": {
+    "name": "Terrific Table"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TerrificTable/terrifictable_vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/TerrificTable/terrifictable_vscode/issues"
+  },
+  "galleryBanner": {
+    "color": "#6200ff",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "TerrificTable-Theme",
+    "TerrificTable",
+    "Dark Theme",
+    "Theme",
+    "green",
+    "purple",
+    "red",
+    "yellow",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "TerrificTable",
+        "uiTheme": "vs-dark",
+        "path": "./themes/TerrificTable-color-theme.json"
+      }
+    ]
+  }
 }
