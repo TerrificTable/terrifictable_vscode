@@ -1,9 +1,9 @@
 # A Theme I made/I'm making for fun
-<img src="https://komarev.com/ghpvc/?username=terrifictable-vscode&label=views&style=flat-square">
 
 [Github](https://github.com/TerrificTable/terrifictable_vscode) · [Bugs](https://github.com/TerrificTable/terrifictable_vscode/issues) · [Suggestions](https://github.com/TerrificTable/terrifictable_vscode/issues) · [My ToDo list for this Project](https://github.com/TerrificTable/terrifictable_vscode/projects/1)
 
 ![Screenshot](https://cdn.discordapp.com/attachments/944354446337507358/950880604986150962/unknown.png)
+<img src="https://komarev.com/ghpvc/?username=terrifictable-vscode&label=views&style=flat-square">
 
 ## Installation
 Download the [.vsix](https://github.com/TerrificTable/terrifictable_vscode/raw/master/terrifictable-0.0.1.vsix) file.
