@@ -1,0 +1,21 @@
+{
+    "name": "terrifictable",
+    "displayName": "TerrificTable",
+    "description": "A Visual Studio Code Theme I'm working on",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "TerrificTable",
+                "uiTheme": "vs-dark",
+                "path": "./themes/TerrificTable-color-theme.json"
+            }
+        ]
+    }
+}
