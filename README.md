@@ -1,5 +1,5 @@
 # A Theme I made/I'm making for fun
-<img src="https://komarev.com/ghpvc/?username=terrifictable_vscode&label=views&style=flat-square">
+<img src="https://komarev.com/ghpvc/?username=terrifictable-vscode&label=views&style=flat-square">
 
 [Github](https://github.com/TerrificTable/terrifictable_vscode) · [Bugs](https://github.com/TerrificTable/terrifictable_vscode/issues) · [Suggestions](https://github.com/TerrificTable/terrifictable_vscode/issues) · [My ToDo list for this Project](https://github.com/TerrificTable/terrifictable_vscode/projects/1)
 
