@@ -6,8 +6,10 @@
 ![Screenshot](https://cdn.discordapp.com/attachments/944354446337507358/950880604986150962/unknown.png)
 
 ## Installation
-#### code --install-extension .\terrifictable-0.0.1.vsix
+download the [.vsix](https://github.com/TerrificTable/terrifictable_vscode/raw/master/terrifictable-0.0.1.vsix) file.
+Now execute this command: ```code --install-extension .\terrifictable-0.0.1.vsix```
 
+## Other
 ```
 Social:
     Discord:    TerrificTable55#6998
