@@ -4,6 +4,9 @@
 
 ![Screenshot](https://cdn.discordapp.com/attachments/944354446337507358/950880604986150962/unknown.png)
 
+## Installation
+#### code --install-extension .\terrifictable-0.0.1.vsix
+
 ```
 Social:
     Discord:    TerrificTable55#6998
