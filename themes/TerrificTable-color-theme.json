@@ -5,22 +5,26 @@
 		"editor.background": "#241525",
 		"editor.foreground": "#eeffff",
 		"titleBar.activeBackground": "#521352",
-		"panel.border": "#720169",
-		"focusBorder": "#ff00626b",
-		"sideBar.background": "#2e1b30",
-		"activityBar.background": "#351b38",
 		"activityBarBadge.background": "#f04eff",
+		"activityBar.background": "#351b38",
+		"activityBar.foreground": "#ffffff",
 		"statusBar.background":"#a1aef8",
 		"statusBar.foreground": "#000000",
+		"sideBar.background": "#2e1b30",
 		"sideBar.border": "#720169",
-		"activityBar.foreground": "#ffffff",
 		"sideBarTitle.foreground": "#94cccc",
-		"tab.activeBorder": "#be01af",
-		"window.activeBorder": "#00c3ff",
+		"tab.hoverForeground": "#f3d1d1",
+		"tab.activeBackground": "#773a7c",
+		"tab.inactiveBackground": "#4a264d",
+		"tab.activeBorder": "#f102de",
+		"focusBorder": "#ff00626b",
+		"panel.border": "#720169",
 
 		"editor.wordHighlightBorder":"#15ff00",
 		"editor.wordHighlightStrongBackground": "#5e3361",
-		"editor.lineHighlightBorder": "#99edf11a"
+		"editor.lineHighlightBorder": "#99edf11a",
+		
+		"window.activeBorder": "#00c3ff",
 	},
 
 	"tokenColors": [
@@ -82,6 +86,37 @@
 			],
 			"settings": {
 				"foreground": "#4e852e",
+			}
+		},
+
+		
+		// C/C++
+		{
+			"name": "Variable.C/C++",
+			"scope": [
+				"variable.other.local.c"
+			],
+			"settings": {
+				"foreground": "#ff7979",
+			}
+		},
+		{
+			"name": "Type.C/C++",
+			"scope": [
+				"entity.name.type.c"
+			],
+			"settings": {
+				"foreground": "#ffae00",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Formatspecifier.C/C++",
+			"scope": [
+				"constant.other.placeholder.c"
+			],
+			"settings": {
+				"foreground": "#00ffb3",
 			}
 		},
 
