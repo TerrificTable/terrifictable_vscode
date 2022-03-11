@@ -39,6 +39,26 @@
 			}
 		},
 		{
+			"name": "Import.Function.Python",
+			"scope": [
+				"meta.member.access.python"
+			],
+			"settings": {
+				"foreground": "#ff00dd",
+			}
+		},
+		{
+			"name": "Types.Python",
+			"scope": [
+				"meta.function.parameters.python",
+				"support.type.python",
+				"constant.language.python"
+			],
+			"settings": {
+				"foreground": "#fd55a4"
+			}
+		},
+		{
 			"name": "Def.Python",
 			"scope": [
 				"entity.name.type.class.python"
@@ -94,7 +114,8 @@
 		{
 			"name": "Variable.C/C++",
 			"scope": [
-				"variable.other.local.c"
+				"variable.other.local.c",
+				"variable.other.local.cpp"
 			],
 			"settings": {
 				"foreground": "#ff7979",
@@ -103,7 +124,8 @@
 		{
 			"name": "Type.C/C++",
 			"scope": [
-				"entity.name.type.c"
+				"entity.name.type.c",
+				"entity.name.type.cpp"
 			],
 			"settings": {
 				"foreground": "#ffae00",
